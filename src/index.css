@@ -1,0 +1,36 @@
+html, body, #root {
+  background: #fff;
+
+}
+
+
+.board {
+  font-family: 'Lobster', cursive;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.board .board .square {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background: lightgreen;
+  border: 1px solid darkgreen;
+  line-height: 60px;
+  text-align: center;
+}
+.board .board .square.zero {
+  background: beige;
+}
+.board .square {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  text-align: center;
+}
+.board .square.zero {
+  border: 1px solid;
+}
